@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS catho;
+CREATE TABLE IF NOT EXISTS catho.candidates (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    skills VARCHAR(255),
+    PRIMARY KEY (id)
+);
